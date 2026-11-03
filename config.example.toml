@@ -1,0 +1,7 @@
+# Replace paths, then merge this section into your MCP client's configuration.
+[mcp_servers.jack-map]
+command = 'D:\jack-codex-mcp\.venv\Scripts\python.exe'
+args = ['D:\jack-codex-mcp\server.py']
+[mcp_servers.jack-map.env]
+JACK_PROJECT_ROOT = 'D:\MappingProject'
+JACK_ENABLE_LIVE_CONTROL = '0'

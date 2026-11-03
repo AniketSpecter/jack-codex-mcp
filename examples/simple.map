@@ -1,0 +1,26 @@
+{
+"classname" "worldspawn"
+"wad" "halflife.wad"
+{
+( 0 0 0 ) ( 128 0 0 ) ( 128 128 0 ) CONCRETE 0 0 0 1 1
+( 0 0 0 ) ( 128 128 0 ) ( 0 128 0 ) CONCRETE 0 0 0 1 1
+}
+}
+{
+"classname" "info_player_start"
+"origin" "64 64 16"
+}
+{
+"classname" "trigger_once"
+"target" "door_a"
+{
+( 0 0 0 ) ( 64 0 0 ) ( 64 64 0 ) TRIGGER 0 0 0 1 1
+}
+}
+{
+"classname" "func_door"
+"targetname" "door_a"
+{
+( 10 0 0 ) ( 20 0 0 ) ( 20 10 0 ) WOOD 0 0 0 1 1
+}
+}
