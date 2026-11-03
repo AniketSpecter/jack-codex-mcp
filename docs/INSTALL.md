@@ -11,6 +11,12 @@
 
 ## Build and setup
 
+The Windows alpha release ZIP includes a prebuilt plugin and matching SDK source.
+Extract it and run `setup.ps1 -DesktopShortcut` without `-BuildNative` to use the
+included DLL. You still supply Python and your own supported JACK installation.
+Verify the ZIP against the release's `SHA256SUMS.txt`. Source-only GitHub archives
+require building the plugin as described below.
+
 ```powershell
 powershell -NoProfile -ExecutionPolicy Bypass -File .\setup.ps1 `
   -EditorDirectory 'D:\Tools\JACK' -ProjectRoot 'D:\Maps\MyProject' `

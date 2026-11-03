@@ -42,3 +42,9 @@ These live results predate packaging-only warning changes. They are not a claim
 that every fault path or every operation's Undo/Redo has passed. Full transform/
 property Undo/Redo coverage, reliable modified-document notification, exact
 document-path identity and broader host compatibility remain release gates.
+
+The public package was rebuilt on 3 November 2026. Its 12 Python tests, real
+stdio handshake advertising 18 tools, and mock native contract passed locally.
+A fresh copied-editor session loaded the rebuilt DLL, reported the explicit
+save limitation, read the eight-brush fixture and created a ninth brush through
+the plan/apply protocol. No original project map was edited.

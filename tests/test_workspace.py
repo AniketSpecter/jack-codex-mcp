@@ -30,7 +30,7 @@ class WorkspaceTests(unittest.TestCase):
                 self.assertEqual(receipt['sha256'],w.sha(copied))
                 self.assertEqual(original.read_bytes(),before)
                 with self.assertRaises(ValueError):w.checkpoint(original)
-                self.assertEqual(w.import_copy(copied),copied)
+                self.assertEqual(w.import_copy(copied),copied.resolve())
 
     def test_new_names_reject_path_escape_and_collision(self):
         with tempfile.TemporaryDirectory() as d:
